@@ -48,4 +48,28 @@ console.log(aluno)
 //ARRAY - CONJUNTO DE INFORMAÇÕES
 
 let tecnologias =["JAVA", "C#", "HTML", "CSS"];
-consolge.log(tecnologias)
+console.log(tecnologias)
+
+//CONVERSÕES
+//converta de float para inteiro
+
+let numeroFloat =123.456;
+console.log(parseInt(numeroFloat))
+
+//converta de string para float
+
+let numeroString="654.321";
+console.log(parseFloat(numeroString))
+
+//converta de numero inteiro para string
+
+let numeroInt=765.432;
+console.log(numeroInt.toString())
+
+//VALOR BOOLEANO
+let alunoAula =true;
+
+//VER O TIPO DA VARIÁVEL
+let verTipo = typeof alunoAula
+console.log(verTipo)
+
